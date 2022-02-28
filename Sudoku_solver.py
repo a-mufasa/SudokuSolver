@@ -33,7 +33,7 @@ def input_file():
     # takes in the filename inputted by the user
     text_in = sys.argv[1]
 
-    file = open("inputs/" + text_in, 'r')
+    file = open(text_in, 'r')
     sudoku_puzzle = file.read()
     sudoku_puzzle = sudoku_puzzle.replace('\n', '').replace(' ', '')
     file.close()
