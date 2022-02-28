@@ -1,6 +1,8 @@
 # SudokuSolver
 9x9 Sudoku Puzzle Solver using AC3, Backtracking, and Forward Checking Algorithms in Python
 
+## Input
+
 Inputs are taken as text files where 0's represent an empty square of the grid. Any user test cases should be written
 into a TEXT FILE with the same FORMAT as shown below.
 
@@ -16,18 +18,22 @@ An example of the acceptable input format for the text file is:
 2 8 7 4 1 9 6 3 5  
 3 4 5 2 8 6 1 7 9  
 
+## Usage
+
 To run your test case, open the Terminal (make sure the directory is correct) and type in (replace filename w/ your
 file's name):
 
-**'python Sudoku_solver.py filename.txt'**
+```python Sudoku_solver.py filename.txt'```
 
 I provided an example input file named "input-test.txt". Feel free to use that file and just replace it's contents 
-in the same format and run the command using "input-test" in place of filename (shown later).
+in the same format and run the command using "input-test" in place of filename.
+
+## Discussion
 
 In addition to AC3 and backtracking + forward checking (with pruning), I chose to use the MRV Variable Ordering
 Heuristic which selects the variable with the fewest legal values in its domain (function is in forward_checking.py and
 is called within the backtracking function).
 
-Outside resources that helped with coding in Python and understanding the problem:  
+## Resources
 Functions of the itertools library (used for permutation): https://docs.python.org/3/library/itertools.html  
 Backtracking: https://www.geeksforgeeks.org/backtracking-introduction/  
