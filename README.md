@@ -23,7 +23,7 @@ An example of the acceptable input format for the text file is:
 To run your test case, open the Terminal (make sure the directory is correct) and type in (replace filename w/ your
 file's name):
 
-```python Sudoku_solver.py filename.txt'```
+```python Sudoku_solver.py filename.txt```
 
 I provided an example input file named "input-test.txt". Feel free to use that file and just replace it's contents 
 in the same format and run the command using "input-test" in place of filename.
